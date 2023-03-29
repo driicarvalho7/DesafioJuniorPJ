@@ -1,8 +1,15 @@
+/*
+  @AUTHOR: https://github.com/driicarvalho7
+
+  Index principal que puxa o React.
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './pages/app/App.js';
+import reportWebVitals from './reportWebVitals.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

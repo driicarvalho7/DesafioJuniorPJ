@@ -1,0 +1,58 @@
+/*
+  @AUTHOR: https://github.com/driicarvalho7
+*/
+
+.Card-Select-Comp-Prod {
+    width: 100%;
+    background-color: #ebebeb;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 0.8s ease forwards;
+  }
+  
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .idC-Json,
+  .nomeC-Json,
+  .fornecedorC-Json,
+  .valorC-Json {
+    width: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 3px;
+  }
+  
+  .add-btn-comp {
+    margin-left: 10px;
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+  }
+  
+  .inputQtdComp {
+    background-color: #ffffff;
+    width: 10%;
+  }

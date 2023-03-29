@@ -1,0 +1,58 @@
+/*
+  @AUTHOR: https://github.com/driicarvalho7
+*/
+
+/* Estilos para o Offcanvas */
+.bgHead, .bgBody {
+  background-color: #575f6d;
+}
+
+/* Estilos para o título */
+.titleSidebar {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+/* Estilos para a lista */
+.SidebarUL {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.SidebarLI {
+  margin-bottom: 1rem;
+  background-color: #414753;
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.SidebarLI:hover {
+  background-color: #343c42;
+  color: #ffffff;
+}
+
+button[type="submit"],
+button[type="clear"] {
+  font-size: 1.2rem;
+  margin-inline: 1rem;
+}
+
+.linkSide {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.linkSide:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: block;
+}

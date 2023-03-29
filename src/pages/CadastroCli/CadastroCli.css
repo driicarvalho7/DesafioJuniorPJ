@@ -1,0 +1,129 @@
+/*
+  @AUTHOR: https://github.com/driicarvalho7
+
+  CSS principal da aplicação, repliquei ele nos outros arquivos.
+*/
+
+.CadastroCli {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #0c1d3c, #000c22);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+  } 
+
+  .personIconCad {
+    margin-bottom: 10px;
+  }
+
+  /* REMOVER AS SETAS DO INPUT */
+  input::-webkit-inner-spin-button, 
+  input::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+
+  input {
+    text-align: center;
+  }  
+
+  .inptNome {
+    box-shadow: 0 0 4px #08012273;
+    width: 60%;
+    background-color: #eeeeee;
+  }
+  
+  .inptCPF {
+    box-shadow: 0 0 4px #08012273;
+    width: 40%;
+    background-color: #eeeeee;
+  }
+
+  .inptDataNasc, .inptDataCad, .inptRenda {
+    box-shadow: 0 0 4px #08012273;
+    width: 30%;
+    background-color: #eeeeee;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+      background-color: #0c1233;
+      color: #fff;
+    }
+
+    .inptNome, .inptCPF, .inptRenda {
+      box-shadow: 0 0 10px #000c224b;
+      width: 80%;
+      background-color: #eeeeee;
+    }
+  
+    .inptDataNasc, .inptDataCad {
+      box-shadow: 0 0 10px #000c224b;
+      width: 60%;
+      background-color: #eeeeee;
+    }
+  }
+  
+  
+  .CadastroCli-content {
+    padding: 1rem;
+    margin-top: 10px; /* altura do Sidebar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CadastroCli-form-box {
+    padding: 1rem;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .CadastroCli-form-box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CadastroCli-form-box label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .CadastroCli-form-box input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .CadastroCli-form-box button {
+    background-color: #2e3f8f;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .CadastroCli-form-box button:hover {
+    background-color: #4341c4;
+  }
+  

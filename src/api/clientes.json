@@ -1,0 +1,61 @@
+{
+    "clientes": [
+      {
+        "id": 1,
+        "nome": "João",
+        "cpf": 12345678900,
+        "dataNasc": "2002-03-27",
+        "dataCad": "2020-09-11",
+        "renda": 2590.08
+      },
+      {
+        "id": 2,
+        "nome": "Adriano",
+        "cpf": 93829348471,
+        "dataNasc": "2002-11-02",
+        "dataCad": "2020-09-11",
+        "renda": 290.08
+      },
+      {
+        "id": 3,
+        "nome": "Roberto",
+        "cpf": 13234526789,
+        "dataNasc": "2002-03-12",
+        "dataCad": "2020-09-11",
+        "renda": 7590.08
+      },
+      {
+        "id": 4,
+        "nome": "Carlos",
+        "cpf": 14523456789,
+        "dataNasc": "2004-03-20",
+        "dataCad": "2020-09-11",
+        "renda": 6590.08
+      },
+      {
+        "id": 5,
+        "nome": "Jose",
+        "cpf": 12233456789,
+        "dataNasc": "2002-07-20",
+        "dataCad": "2020-09-11",
+        "renda": 2490.08
+      },
+      {
+        "id": 6,
+        "nome": "Paulo",
+        "cpf": 82123456789,
+        "dataNasc": "2002-06-27",
+        "dataCad": "2020-09-11",
+        "renda": 1390.08
+      },
+      {
+        "id": 7,
+        "nome": "Gabriel",
+        "cpf": 32123456789,
+        "dataNasc": "2002-03-07",
+        "dataCad": "2020-09-11",
+        "renda": 90.08
+      }
+    ]
+  }
+  

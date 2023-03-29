@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Desafio - Sistema Administração de Clientes
+Author: [Adriano Carvalho](https://github.com/driicarvalho7)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Inicializando o projeto
 
-In the project directory, you can run:
+No diretorio principal, digite:
+
+### `npm install`
+
+Assim você vai instalar as dependências do projeto.
+
+Para rodar o projeto, a porta localhost:3000 deve estar vazia para rodar o arquivo json que utilizei como API.
+
+Dito isso, entre na pasta /src/api e digite:
+
+### `json-server --watch clientes.json`
+
+Após a API iniciar, ai sim, volte para a pasta principal (onde está o package.json), e digite:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Aperte a tecla "y" para ele inicar em uma porta diferente da ":3000".
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Mais detalhes sobre o desenvolvimento
 
-### `npm test`
+## Desafios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Conexão de database local
 
-### `npm run build`
+Eu tive bastante dificuldade com a conexão do banco de dados localmente. Tentei utilizar muitas bibliotecas do JavaScript, como por exemplo:
+- "mysql", "mysql2", "sequelize" e "lowdb"...
+Tentei com algumas outras que fazem a conexão local com o SQL, porém nenuma delas funcionou... Tive bastante erro com o "webpack" por estar em uma versão diferente. Passei alguns dias com esse problema até que decidi tentar de outra forma.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tentei fazer localmente um CRUD em arquivos .json, mas ainda sim tive problemas também com a biblioteca "fs".
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sendo assim, eu decidi por final utilizar a biblioteca "axios" e criar um .json estático para rodar local e fazer a busca de API estático. Porém a lógica caso o arquivo fosse dinâmico seria a mesma.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Porém, deixei comentado no arquivo "dbSQL.js" como eu pensei em criar a querry de CRUD.
 
-### `npm run eject`
+### Gestão de tempo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Como meu tempo está bem corrido por conta do estágio, vice-presidencia da empresa junior e a faculdade, consegui desenvolver boa parte do projeto durante o final de semana.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Porém, caso vocês gostem do meu projeto estou disposto a negociar a minha posição no estágio!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Agradecimentos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ademais, gostei muito da proposta do projeto e dos desafios que tive que enfrentar.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Aguardo o retorno, e mesmo que seja negativo, gostaria de um feedback do que eu poderia melhorar!
